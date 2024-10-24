@@ -66,14 +66,14 @@ def abrirArchivo(nombreArchivo):
     return palabras
 
 def verificarPalabra(palabras, buscarPalabra):
-    return buscarPalabra in palabras  # Usamos 'in' para simplificar la verificación
+    return buscarPalabra in palabras 
 
 def buscar():
     palabra = entry.get()
     if verificarPalabra(palabras, palabra):
-        messagebox.showinfo("Resultado", f"La palabra '{palabra}' está en el archivo.")
+        messagebox.showinfo("Resultado", f"La palabra '{palabra}' esta en el archivo.")
     else:
-        messagebox.showinfo("Resultado", f"La palabra '{palabra}' NO está en el archivo.")
+        messagebox.showinfo("Resultado", f"La palabra '{palabra}' NO esta en el archivo.")
 
 '''------------Interfaz------------'''
 # carmagos el archivo

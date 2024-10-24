@@ -8,3 +8,8 @@ Años
 hola
 como
 estas
+animal
+comida
+casa
+arbol
+colina
